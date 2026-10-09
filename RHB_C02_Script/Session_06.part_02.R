@@ -10,5 +10,3 @@ data |>
   tbl_summary() |> 
   as_gt() |> 
   gtsave("results/tables/Table1.docx")
-
-
